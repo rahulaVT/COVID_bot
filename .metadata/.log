@@ -1,0 +1,34 @@
+!SESSION 2020-09-27 00:23:33.188 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_265
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 4 0 2020-09-27 00:23:34.422
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: net.sourceforge.pmd.eclipse.plugin [486]
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource net.sourceforge.pmd.eclipse.plugin [osgi.identity; type="osgi.bundle"; version:Version="4.0.7.v20150522-1709"; osgi.identity="net.sourceforge.pmd.eclipse.plugin"; singleton:="true"] because it exports package 'org.apache.log4j' and is also exposed to it from resource org.apache.log4j [osgi.identity; type="osgi.bundle"; version:Version="1.2.15.v201012070815"; osgi.identity="org.apache.log4j"] via the following dependency chain:
+
+  net.sourceforge.pmd.eclipse.plugin [osgi.identity; type="osgi.bundle"; version:Version="4.0.7.v20150522-1709"; osgi.identity="net.sourceforge.pmd.eclipse.plugin"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.apache.commons.logging)(bundle-version>=1.0.4))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="1.2.0.v20180409-1502"; osgi.wiring.bundle="org.apache.commons.logging"
+  org.apache.commons.logging [osgi.identity; type="osgi.bundle"; version:Version="1.2.0.v20180409-1502"; osgi.identity="org.apache.commons.logging"]
+    import: (osgi.wiring.package=org.apache.log4j)
+     |
+    export: osgi.wiring.package: org.apache.log4j
+  org.apache.log4j [osgi.identity; type="osgi.bundle"; version:Version="1.2.15.v201012070815"; osgi.identity="org.apache.log4j"]
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
