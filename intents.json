@@ -1,0 +1,344 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for asking",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "1",
+      "patterns": [
+        "What is coronavirus disease 2019 (COVID-19)?",
+        "What is COVID?",
+        "What is the Coronavirus?",
+        "What type of disease is COVID-19?"
+      ],
+      "responses": [
+        "Coronavirus disease 2019 (COVID-19) is a respiratory illness that can spread from person to person. COVID-19 is a new disease, caused by a novel (or new) coronavirus that has not previously been seen in humans."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "2",
+      "patterns": [
+        "How does COVID-19 spread?",
+        "How does the virus spread?",
+        "Is COVID spread from animals?",
+        "Does the virus spread by people?"
+      ],
+      "responses": [
+        "COVID-19 is thought to spread mainly through close contact from person-to-person. Some people without symptoms may be able to spread the virus."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "3",
+      "patterns": [
+        "How can I prevent COVID-19?",
+        "How can I avoid COVID? ",
+        "How can I stop the spread?",
+        "What kills the virus?"
+      ],
+      "responses": [
+        "The best way to prevent illness is to avoid being exposed to the virus. CDC recommends washing your hands often with soap and water for at least 20 seconds especially after you have been in a public place. If soap and water are not available, CDC recommends using an alcohol-based hand sanitizer."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "4",
+      "patterns": [
+        " Should I wear a face covering or mask when I go out in public?",
+        "Do masks work?",
+        "Should I wear a mask?",
+        "Do masks really stop COVID-19?",
+        "What's the point of a mask?",
+        "Will a mask protect me from the virus?",
+        "Do you need to wear masks outside?",
+        "Do I have to social distance while wearing a mask?"
+      ],
+      "responses": [
+        "CDC recommends wearing masks in public when other social distancing measures are difficult to maintain.The purpose of wearing a mask in public is to slow the spread of the virus and help people who may have the virus and do not know it from transmitting it to others. "
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "5",
+      "patterns": [
+        "What treatments are available for COVID-19?",
+        "Is there a cure for COVID-19?",
+        "What medicine should I take if I have COVID-19?",
+        "Can I be treated from COVID-19?"
+      ],
+      "responses": [
+        "Currently there are no FDA-approved medicines specifically for COVID-19. However, the FDA has granted emergency use authorizations for some medicines to be used for certain patients hospitalized with COVID-19. The National Institutes of Health provides more information about treatment options on https://www.covid19treatmentguidelines.nih.gov/"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "6",
+      "patterns": [
+        "Can I prevent or treat COVID-19 by using disinfectant sprays, wipes, or liquids on my skin?",
+        "Do disinfectants help treat COVID-19?",
+        "Should I wipe my hands with wet wipes?",
+        "I've heard disinfectant spray can kill the virus."
+      ],
+      "responses": [
+        "Disinfectant products such as sprays, mists, wipes, or liquids are only to be used on hard, non-porous surfaces such as floors and countertops, or on soft surfaces such as mattresses, sofas, and beds. Disinfectants should not be used on human or animal skin. Disinfectants may cause serious skin and eye irritation."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "8",
+      "patterns": [
+        "Is hand sanitizer effective against COVID-19?",
+        "Does hand sanitizer kill the virus?",
+        "Does Purell work against COVID-19?",
+        "Should I use hand sanitizer against COVID-19?"
+      ],
+      "responses": [
+        "The best way to prevent the spread of infections and decrease the risk of getting sick is by washing your hands with plain soap and water, advises the CDC. Washing hands often with soap and water for at least 20 seconds is essential, especially after going to the bathroom; before eating; and after coughing, sneezing, or blowing one’s nose."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "9",
+      "patterns": [
+        "Where can I buy hand sanitizer?",
+        "Where do I get hand sanitizer?",
+        "The store ran out of hand sanitizer. ",
+        "Where should I buy disinfectants?"
+      ],
+      "responses": [
+        "Many retail stores and pharmacies sell hand sanitizers. To help increase the availability of hand sanitizers, the FDA has issued guidance for the temporary preparation of alcohol-based hand sanitizers by some companies and pharmacies during the COVID-19 public health emergency. "
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "10",
+      "patterns": [
+        "Where can I report websites selling fraudulent medical products?",
+        "Can I report fake cures?"
+      ],
+      "responses": [
+        "Currently, there are no FDA-approved products for the prevention or treatment of COVID-19. The FDA advises consumers to be cautious of websites and stores selling products that claim to prevent, treat, or cure COVID-19. Please report websites selling fraudulent medical products here: https://www.accessdata.fda.gov/scripts/email/oc/buyonline/english.cfm"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "11",
+      "patterns": [
+        "Am I at risk for serious complications from COVID-19 if I smoke cigarettes?",
+        "Does smoking increase my risk from COVID-19?",
+        "I smoke a lot should I be more worried about the virus?"
+      ],
+      "responses": [
+        " Smoking cigarettes can leave you more vulnerable to respiratory illnesses, such as COVID-19. For example, smoking is known to cause lung disease and people with underlying lung problems may have increased risk for serious complications from COVID-19, a disease that primarily attacks the lungs. Smoking cigarettes can also cause inflammation and cell damage throughout the body, and can weaken your immune system, making it less able to fight off disease."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "13",
+      "patterns": [
+        "How long is the incubation period for COVID-19?",
+        "What is the incubation period of COVID-19?",
+        "How long is the incubation of the virus?",
+        "How long before I display the symptoms of COVID-19?"
+      ],
+      "responses": [
+        " Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "14",
+      "patterns": [
+        "What are the symptoms of COVID-19?",
+        "How do I know if I have COVID?",
+        "How can you tell if someone has COVID-19?",
+        "What are COVID-19 symptoms? ",
+        "What are the symptoms of the virus?"
+      ],
+      "responses": [
+        " The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. "
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "15",
+      "patterns": [
+        "Will isolation help prevention against COVID-19?",
+        "Will quarentine stop me from getting sick?",
+        "Will isolation stop the spread? "
+      ],
+      "responses": [
+        " If you and your family have not been exposed to the virus, isolation will keep you protected. And if you have been exposed and recommended self-quarantine, make sure you follow that dutifully to keep other safe."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "16",
+      "patterns": [
+        "What is the best way to wash hands properly?",
+        "What's the proper way to wash my hands? "
+      ],
+      "responses": [
+        " Step 1:Wet hands with running water Step 2: Apply enough soap to cover wet hands Step 3: Scrub all surfaces of the hands – including back of hands, between fingers and under nails – for at least 20 seconds Step 4: Rinse thoroughly with running water Step 5: Dry hands with a clean cloth or single-use towel"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "17",
+      "patterns": [
+        "Can people who recover from COVID-19 be infected again?",
+        "Are people who have alreadly been infected immune to COVID? ",
+        "Can you get COVID-19 twice?",
+        "I've already gotten COVID, should I wear a mask?"
+      ],
+      "responses": [
+        " We know that for similar coronaviruses, infected people are unlikely to be re-infected shortly after they recover. However, because the immune response to COVID-19 is not yet understood, it is not yet known whether similar immune protection will be observed for patients who have recovered from COVID-19."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "18",
+      "patterns": [
+        "Can the virus that causes COVID-19 be transmitted through the air?",
+        "Is COVID-19 airbourne? ",
+        "Does COVID-19 spread by people coughing?"
+      ],
+      "responses": [
+        " Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through contact with respiratory droplets rather than through the air"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "19",
+      "patterns": [
+        "Are health workers at risk from a novel coronavirus?",
+        "Can doctors get sick from COVID-19? ",
+        "Are nurses at risk of getting the virus?",
+        "Can people who work in hospitals be infected?"
+      ],
+      "responses": [
+        "Yes, they can be, as health care workers come into contact with patients more often than the general public WHO recommends that health care workers consistently apply appropriate"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "20",
+      "patterns": [
+        "Are there any vaccines or other medical products to prevent COVID-19?",
+        "Are there any vaccines for COVID-19? ",
+        "Is there a vaccine?",
+        "Can I take a vaccine?"
+      ],
+      "responses": [
+        "At this time there is no vaccine to prevent coronavirus disease 2019 (COVID-19)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "22",
+      "patterns": [
+        "Is it safe for me to donate blood during the coronavirus pandemic?",
+        "Can I donate blood?",
+        "Do hospitals need blood donations for COVID-19? ",
+        "Is donating blood safe?",
+        "Are there COVID-19 blood drives?"
+      ],
+      "responses": [
+        "If you are healthy and interested in donating blood, the FDA encourages you to contact a local donation center to make an appointment."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "24",
+      "patterns": [
+        "Are chloroquine phosphate or hydroxychloroquine sulfate approved by the FDA to treat COVID-19?",
+        "Is chloroquine phosphate used to treat COVID-19? ",
+        "Can hydroxychloroquine sulfate help with COVID-19?"
+      ],
+      "responses": [
+        "No. Hydroxychloroquine sulfate and some versions of chloroquine phosphate are FDA-approved to treat malaria."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "25",
+      "patterns": [
+        "Can antibiotics help? ",
+        "Could I take antibiotics for COVID-19?"
+      ],
+      "responses": [
+        "No. Antibiotics do not work against viruses; they only work on bacterial infections. Antibiotics do not prevent or treat COVID-19, because COVID-19 is caused by a virus, not bacteria."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "26",
+      "patterns": [
+        "Is there a test for COVID-19?",
+        "Are there tests for the virus? ",
+        "Can I get tested for COVID-19?"
+      ],
+      "responses": [
+        "Yes, the FDA has authorized two different types of tests (diagnostic and antibody tests) for use during the COVID-19 emergency."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "27",
+      "patterns": [
+        "How are people tested for COVID-19?",
+        "How do COVID-19 tests work? ",
+        "How does the COVID test work? ",
+        "What happens in a COVID test?"
+      ],
+      "responses": [
+        "In general, for diagnostic tests, samples are collected from a person’s nose and/or throat using swabs or other collection devices by a healthcare provider in a health care setting. "
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "28",
+      "patterns": [
+        "Are there any tests that I can purchase to test myself at home for COVID-19?",
+        "Can I buy a self-testing kit for COVID-19?",
+        "Can I get tested for COVID-19 without leaving home?"
+      ],
+      "responses": [
+        "No, at this time, the FDA has not authorized any COVID-19 test to be completely used and processed at home."
+      ],
+      "context": [""]
+    }
+  ]
+}
